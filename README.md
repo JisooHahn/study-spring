@@ -156,8 +156,8 @@ URI만으로도 데이터 또는 행위(CRUD) 상태를 이해할 수 있도록 
    파일 확장자는 URI로 표현하지 않고 Header의 Content-Type을 사용하여
    body의 내용을 처리하도록 설계한다.
 
-6. 데이터를 대표할 때에는 명사를 사용하고, 상태를 대표할 때에는 동사를 사용한다.
-   http://www.app.com/members/get/1 (X)
+6. 데이터를 대표할 때에는 명사를 사용하고, 상태를 대표할 때에는 동사를 사용한다.<br>
+   http://www.app.com/members/get/1 (X)<br>
    http://www.app.com/members/delete/1 (O)
 
 7. URI에 사용되는 영어 단어는 복수로 작성한다.
