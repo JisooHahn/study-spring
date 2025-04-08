@@ -118,12 +118,13 @@ Spring Framework를 사용함에 있어서 초기 설정 및 필요한 라이브
 
 #### Spring MVC(Front-Controller Pattern)
 ```
-                    HandlerMapping
-REQUEST		          ①	      ②↕	            ③		         ④
-    	]	    ↔    DispatcherServlet   ↔  HandlerAdapter   ↔  Controller
-RESPONSE    ⑦	      ⑥↕	    ⑤↕
-    			      View	ViewResolver
-    			        ↕
+				HandlerMapㅔing
+	REQUEST		  ①	      ②↕	   ③		       ④
+		]	  ↔	DispatcherServlet   ↔  HandlerAdapter   ↔  Controller
+	RESPONSE	  ⑦	⑥↕	     ⑤↕
+				View	ViewResolver
+				   ↕
+				HTML 및 기타
     		    	HTML 및 기타
 ```
 #### Spring MVC 패턴의 특징
