@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ranking-img">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pickCourse/build/resources/main/static/images/ranking-img.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
